@@ -1,0 +1,31 @@
+h1{
+    display: block;
+    font-size: 1.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 50px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.footer{
+    text-align:center;
+    padding:10px;
+    background-color:#ddd;
+}
+table{
+    width:100%;
+    border:1px solid black;
+}
+dt{
+    font-weight:bold;
+    font-size:1.2em;
+}
+section{
+    width:33%;			
+    padding:10px;
+    border:1px solid black;
+    margin:10px;
+}
+#education{
+    background-color:green;
+}
