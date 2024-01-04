@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!-- Using the alison course teachings for a full HTML website-->
+<!-- Webpage is designed as a curriculum vitae-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>John C. Madsen Resume</title>
+		<style>
+			.footer{
+				text-align:center;
+				padding:10px;
+				background-color:#ddd;
+			}
+			table{
+				width:100%;
+				border:1px solid black;
+			}
+			dt{
+				font-weight:bold;
+				font-size:1.2em;
+			}
+			section{
+				width:33%;			
+				padding:10px;
+				border:1px solid black;
+				margin:10px;
+			}
+		</style>
+	</head>
+	<body style="font-family: Calibri">
+		<header class="header"><h1>John C. Madsen</h1></header>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#experience">Experience</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#interests">Interests</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<article><p>Welcome to my website, hope you find it interesting</p>
+		<hr>
+		<p>My name is John C. Madsen</p>
+		<img src="imgs/anonymous.png" alt="John's picture style="width: 200px">
+		</article>
+		<section id="experience">
+			<h2>Experience</h2>
+			<table>
+				<colgroup>
+					<col span="1" style="background-color: #ddd">
+				</colgroup>
+				<tr>
+					<th>Company</th>
+					<th>Details</th>
+					<th>Years</th>
+					<th>City/Country</th>
+				</tr>
+				<tr>
+					<td>Atkins Danmark</td>
+					<td>Network Engineering</td>
+					<td>2000-2004</td>
+					<td>Copenhagen/Denmark</td>					
+				</tr>
+				<tr>
+					<td>Bureau Van Dijk</td>
+					<td>Webmaster for electronic publishing</td>
+					<td>2005-2009</td>
+					<td>Bruxelles/Belgium</td>					
+				</tr>
+				<tr>
+					<td>Nokia</td>
+					<td>High-level System Integration Engineer</td>
+					<td>2009-</td>
+					<td>Antwerp/Belgium</td>					
+				</tr>				
+			</table>
+		</section>
+		
+		<section id="education">
+			<h2>Education</h2>		
+			<dl>
+				<dt>My University</dt>
+				<dd>Engineering College of Copenhagen</dd>
+				<dt>Degree</dt>
+				<dd>B.Sc.E.E.</dd>
+			</dl>
+		</section>
+
+		<section id="skills">
+			<h2>Skills</h2>	
+			<ol>
+				<li>Python</li>
+				<li>Webpage design</li>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Javascript</li>
+						<li>Webflow</li>
+					</ul>				
+				<li>TCL</li>			
+			</ol>
+		</section>
+
+		<section id="interests">
+			<h2>Interests</h2>		
+			<ul>
+				<li>Ancient Studies</li>
+				<li>Languages</li>
+				<li>Swimming</li>
+				<li>Technology applied to the environment</li>
+			</ul>
+		</section>
+
+		<section id="contact">
+			<h2>Contact</h2>	
+				<p> 
+					Contact me at my email <a href="mailto:johncmadsen@gmail.com">My Email Address</a>
+				</p>
+		</section>
+
+		<footer class="footer">Copyright (c) J.C.Madsen</footer>		
+	</body>
+</html>
