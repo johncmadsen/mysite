@@ -1,0 +1,221 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+/*The asterisk is used to apply to all elements*/
+* {
+    /*box-sizing: border-box;*/ /*forces it to use whatever is available, so it will wrap the border into the size of the box.*/
+    /*font-family: Calibri;*/
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    /*background-color:lightgray;*/
+}
+
+.header {
+	/*background-color: paleturquoise;*/
+    /*background-color: white;*/
+	width:100%;
+/*    height:50px;*/
+	margin:0;
+	font-size: 1vw;
+	text-align: center;
+    padding:2px;
+    border-color: lightgray;
+    padding: 15px;
+    font-family: Calibri;
+}
+
+.logo {
+    position: absolute;
+    top: 90px;
+    left: 86px;    
+}
+
+.header_menu {
+    width:100%;
+    text-align: center;
+    /*display:inline;*/
+    /*vertical-align: middle;*/
+    padding: 15px;
+    height: 95px;
+    border-top:1px solid lightgray;
+    border-left:1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    font-family: "Amazon Ember", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+.header_menu span {
+    padding:10px;
+}
+
+.header_menu > * {
+    vertical-align:middle;  // Align children to middle of line
+}
+
+.row {
+    border:1px solid lightgray;
+    border-top:none;
+    border-right:none; 
+    border-bottom: none;   
+    /*background-color: cadetblue;*/
+    /*background-color: white;*/
+    font-family: Calibri;
+}
+
+.col {
+    float:left;
+    /*border:1px solid lightgray;*/
+}
+
+/*These are the two columns on the sides */
+/*.row aside {
+    width: 10%;
+    padding:5px;
+}*/
+
+.row aside:nth-child(1){
+    /*background-color: #ddd;*/
+    /*background-color: white;*/
+    width: 12%;
+    padding:5px;
+}
+
+/*.row aside:nth-child(3){
+    width: 2%;
+    padding:5px;
+    border: 1px, solid, lightblue; 
+}*/
+
+
+/*This is the middle column (class=left col)*/
+.row article {
+    width: 85%;
+    /*background-color:white;*/
+    padding: 15px;
+    border-left: 1px solid lightgray;
+    border-bottom: none;
+    /*border-right: 1px solid lightgray;*/
+}
+
+.book-type {
+    padding:10px;
+}
+
+.sub-book-type {
+    padding:10px;
+}
+
+.summary {
+    padding:10px;
+}
+
+.summary-title {
+    padding:10px;
+}
+
+.publication-item {
+    /*border-radius: 30px;*/
+    background:#fff;
+    /*background:black;*/
+    border:2px solid #ddd;
+    border-radius:10px;    
+    /*padding:1px 1px 7px 1px;*/
+    padding-top:0px;
+    line-height:21px;
+    word-wrap:break-word;
+    margin:5px;
+    cursor:pointer!important;
+    -webkit-box-shadow:0 2px 2px rgba(0,0,0,.24);
+    -moz-box-shadow:0 2px 2px rgba(0,0,0,.24);
+    box-shadow:0 2px 2px rgba(0,0,0,.24);
+    transition:all .2s ease-in-out;
+    border-image-repeat: stretch;
+    border-image-slice:250px;
+    float:left;
+}
+
+.publication-item:hover {
+    /*-webkit-box-shadow:0 6px 6px rgba(0,0,0,.19);*/ /*shadow only below image*/
+    -webkit-box-shadow:6px 6px 6px rgba(0,0,0,.19); /*shadow below+right side*/
+    -moz-box-shadow:6px 6px 6px rgba(0,0,0,.19);
+    box-shadow:6px 6px 6px rgba(0,0,0,.19)
+  }
+
+.publication-detail {
+    padding:10px;
+    vertical-align: middle;
+    font-family: "Amazon Ember", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13.5px;
+}
+
+.title {
+    color: rgba(1,1,1,.87);
+    font-size: 18px;
+    margin-bottom: 2px;
+    font-weight: 500;
+    line-height: 1.4
+}
+
+.original_title2 {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    border-radius:10px;
+    border-radius: 10px 10px 0px 0px;
+    width:200px;
+    height:310px;
+}
+
+.row:after {
+    content:"";
+    display: table;
+    clear:both;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    list-style-type: none; /*removes the bullet-points*/
+    /*background-color: black;*/
+    text-align: center;
+}
+
+/*li:hover {
+    background-color: chocolate;
+}*/
+
+ul li a {
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.9em;
+    background-color: gray;
+}
+
+.footer a {
+    color: violet;
+    text-decoration: none; /*Removes the underline from the link*/
+}
+
+/*
+@media (max-width:640px) {
+    body {
+        background-color: azure;
+    }
+    .main aside, .main article{
+        width:100%;
+    }
+} */
